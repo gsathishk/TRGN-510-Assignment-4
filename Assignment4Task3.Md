@@ -1,11 +1,15 @@
-#TRGN 510 Assignment 4 Task 3.
-#Sathish Kumar Ganesan.
-#18 Feb 2018.
-#We load in libraries.
+##### TRGN 510 Assignment 4 Task 3.
+##### Sathish Kumar Ganesan.
+##### 18 Feb 2018.
+###### We load in libraries.
+`
 library(ggplot2) 
 library(plotly)
-#We Change Directory.
-setwd('~/testgraph2/mygraph2/bin/')  
+`
+###### We Change Directory.
+`
+setwd('~/testgraph2/mygraph2/bin/')
+`
 #We load in our dataframe.
 skgkgenes <- read.csv('gene_dist_head.tsv', header= TRUE, sep = "\t",fill = TRUE) 
 #We define a factor set of autosomes.
