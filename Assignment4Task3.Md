@@ -28,7 +28,7 @@ genes$chr <- factor(genes$chr, levels = autosomes)
 `
 ###### We plot in ggplot.
 `
-ggplot(data = genes) +  geom_bar(mapping = aes(x = chr, fill = feature), width = 1)<br/>ggplot(data = genes) + geom_bar(mapping = aes(x = feature)) . ggplot(data = genes) + geom_bar(mapping = aes(x = chr, fill = feature)) . ggplot(data = genes) + geom_bar(mapping = aes(x = chr, fill = feature), width = 1) + coord_polar()  
+ggplot(data = genes) +  geom_bar(mapping = aes(x = chr, fill = feature), width = 1)                                     ggplot(data = genes) + geom_bar(mapping = aes(x = feature))                                                          ggplot(data = genes) + geom_bar(mapping = aes(x = chr, fill = feature))                                               ggplot(data = genes) + geom_bar(mapping = aes(x = chr, fill = feature), width = 1) + coord_polar()  
 `
 ###### Here we install devtools to make ggplotly work.
 `
